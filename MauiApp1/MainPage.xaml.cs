@@ -19,17 +19,13 @@
             double result1;
             double result2;
 
-            //delta
             delta = b * b - (4*a*c);
 
             double valorraiz = Math.Sqrt(delta);
 
             if(valorraiz > 0)
             {
-                if(b < 0)
-                {
-                    
-                }
+
                 result1 = ((b - (b * 2)) + valorraiz) / (2 * a);
                 result2 = ((b - (b * 2)) - valorraiz) / (2 * a);
 
