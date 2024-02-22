@@ -19,6 +19,7 @@
             double result1;
             double result2;
 
+            //delta
             delta = b * b - (4*a*c);
 
             double valorraiz = Math.Sqrt(delta);
